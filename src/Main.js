@@ -1,20 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 import Profilphoto from './Page/Profilphoto'
 import Fullname from './Page/Fullname'
 import Myaddress from './Page/Address'
 
-
-function App() {
-  return (
-    <div className="App">
+const Main = () =>{
+    return(
+        <div className="App">
+        <h1>this is the Main component</h1>
       <Profilphoto />
       < Fullname />
       < Myaddress />
-
-    </div>
-  );
+      </div>
+    )
 }
 
-export default App;
+
+
+export default Main 
